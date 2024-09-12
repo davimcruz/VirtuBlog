@@ -38,12 +38,12 @@ const posts = [
 
 const ArticleSummary = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col xl:flex-row">
       <div className="flex w-full p-6">
         <Posts posts={posts} />
       </div>
 
-      <div className="w-[50%] p-6">
+      <div className="w-full md:w-[50%] p-6">
         <RightSection />
       </div>
     </div>
