@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const RightAutors = () => {
  return (
-   <div className="flex-col pt-6">
+   <div className="flex-col pt-6 shadow-sm pb-4">
      <div className="flex py-6">
        <Image
          src="https://img.freepik.com/psd-gratuitas/ilustracao-3d-de-avatar-ou-perfil-humano_23-2150671142.jpg"
@@ -14,7 +14,7 @@ const RightAutors = () => {
        <div className="flex-col">
          <p className="font-bold ml-4 mt-2">Davi Machado</p>
          <p className="font-normal text-xs ml-4">
-           Bacharelando Relações Internacionais - PUC Goiás
+           Bacharelando Relações Internacionais <br /> PUC Goiás
          </p>
        </div>
      </div>
@@ -30,7 +30,7 @@ const RightAutors = () => {
        <div className="flex-col">
          <p className="font-bold ml-4 mt-2">Luísa Cruz</p>
          <p className="font-normal text-xs ml-4">
-           Diretora de Marketing de Relações Internacionais - PUC Goías
+           Diretora de Marketing de Relações Internacionais <br /> PUC Goías
          </p>
        </div>
      </div>
@@ -46,7 +46,7 @@ const RightAutors = () => {
        <div className="flex-col">
          <p className="font-bold ml-4 mt-2">Joana Souza</p>
          <p className="font-normal text-xs ml-4">
-           Diretora de Comunicações de Relações Internacionais - PUC Goiás
+           Diretora de Comunicações  <br /> PUC Goiás
          </p>
        </div>
      </div>
@@ -62,7 +62,7 @@ const RightAutors = () => {
        <div className="flex-col">
          <p className="font-bold ml-4 mt-2">Tiago de Oliveira</p>
          <p className="font-normal text-xs ml-4">
-           Presidente da Comissão de Relações Internacionais - PUC Goiás
+           Presidente da Comissão de Relações Internacionais <br /> PUC Goiás
          </p>
        </div>
      </div>

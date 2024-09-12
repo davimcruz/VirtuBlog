@@ -10,7 +10,7 @@ interface PostsProps {
 
 const Posts: React.FC<PostsProps> = ({ posts }) => {
   return (
-    <div className="flex flex-1 flex-col gap-6 h-full md:px-6 pb-12 shadow-xl rounded-lg">
+    <div className="flex flex-col gap-6 h-full md:px-6 pb-12 shadow-sm md:shadow-xl rounded-lg">
       <div className="flex-col">
         <h1 className="text-black font-bold text-xl md:text-3xl px-4 md:px-6 pt-2 md:pt-6">
           Artigos Recentes

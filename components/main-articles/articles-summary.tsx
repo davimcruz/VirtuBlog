@@ -43,7 +43,7 @@ const ArticleSummary = () => {
         <Posts posts={posts} />
       </div>
 
-      <div className="w-full md:w-[50%] p-6">
+      <div className="w-full md:w-[50%] md:p-6">
         <RightSection />
       </div>
     </div>
