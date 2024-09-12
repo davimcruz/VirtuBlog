@@ -29,7 +29,7 @@ const Posts: React.FC<PostsProps> = ({ posts }) => {
               {post.body}
             </p>
 
-            <Separator className="max-w-[75%] md:mt-4 -mb-4" />
+            <Separator className="md:max-w-[75%] mt-4 -mb-4" />
 
             <div className="flex justify-between items-center mt-8 max-w-[75%]">
               <Button className="bg-texto2 " variant={"default"}>
