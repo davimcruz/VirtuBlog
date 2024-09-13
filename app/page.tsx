@@ -1,12 +1,14 @@
+import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
-import ArticleSummary from "@/components/main-articles/articles-summary";
+import Hero from "@/components/hero/hero";
 
 
 export default function Home() {
   return (
     <div>
       <Header/>
-      <ArticleSummary/>
+      <Hero/>
+      <Footer/>
     </div>
   )
 }
